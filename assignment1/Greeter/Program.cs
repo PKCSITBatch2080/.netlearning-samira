@@ -10,9 +10,7 @@ class Program
         // Create another variable cFullName and initialize it with fullName in uppercase
         string cFullName = fullName.ToUpper();
 
-        // Print the uppercase name
-        Console.WriteLine("Uppercase Name: " + cFullName);
-
-        
+        // Print the uppercase name in the desired format
+        Console.WriteLine($"Hello, {cFullName} Ji!");
     }
 }
